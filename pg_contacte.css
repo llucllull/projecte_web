@@ -1,0 +1,232 @@
+*{margin:0; padding: 0;}
+
+body{
+    background-color: rgb(224, 224, 224);
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.logo{
+    display:flex;
+    padding-top: 2%;
+}
+
+.logo img{
+    margin-left: 2%;
+    height: 90px;
+    width: 90px;
+    display: flex;
+}
+
+.logo h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin:auto;
+    margin-top: 1%;
+    color: white;
+
+}
+.logo ul{
+    list-style-type: none;
+    display: flex;
+    padding-right: 2px;
+    margin-right: 2%;
+}
+.logo li{
+    padding-right: 8px;
+
+}
+.capcalera{
+    background-color: rgb(77, 77, 77);
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+}
+.sessio{
+    padding-top: 20px;
+    padding-left: 20%;
+    font-size: 18px;
+}
+.registre{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 1%;
+    color: white;
+
+}
+.navegador{
+    background-image: url("../Projecte/Imatges/nav.png");  
+    list-style-type: none;
+    display: flex;
+    padding-left: 15%;
+    padding-top: 45px;
+    color: white;
+    margin-bottom: 0%;
+    
+}
+
+ul.navegador li{
+    margin-right: 30px;
+    font:bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 25px;
+}
+ul.navegador li:hover{
+    text-decoration-line: underline;
+    
+}
+ul.navegador a{
+    font:bold;
+    color:white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.actual{
+    text-decoration-line: underline;
+    color: rgb(148, 148, 148);
+}
+
+.formulari{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+} 
+.container {
+    padding: 16px;
+    margin: auto;
+    width: 75%;
+}
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+    width: 103%;
+  }
+  
+  .resistre {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 103%;
+    opacity: 0.9;
+  }
+  
+  .resistre:hover {
+    opacity: 2;
+  }
+  
+  a {
+    color: dodgerblue;
+  }
+  
+  .inicia {
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+  }
+
+  .empreses{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.empreses > div{
+    text-align: center;
+    font-size: 30px;
+}
+.hp{
+    height: 80px;
+    width: 80px;
+}
+.ferraridiv{
+    margin-bottom: 2%;
+}
+.ferrari{
+    height: 110px;
+    width: 200px;
+}
+.sun{
+    padding-top: 4%;
+    height: 60px;
+    width: 50px;
+}
+.applediv{
+    margin-bottom: 20px;
+}
+.apple{
+    height: 70px;
+    width: 60px;
+}
+.netapp{
+    padding-top: 4%;
+    height: 60px;
+    width: 190px;
+}
+.ibm{
+    height: 60px;
+    width: 150px;
+}
+.luis_vuitton{
+    height: 80px;
+    width: 150px;
+}
+
+.balenciaga{
+    height: 80px;
+    width: 280px;
+}
+
+footer{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    height: auto;
+    background-color:rgb(77,77,77);
+    display: flex;
+}
+.contacte{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    text-align: left;
+}
+.contacte ul{
+    list-style-type: none;
+    color: rgb(224, 224, 224);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+.primer{
+    list-style-type: none;
+    color: rgb(224, 224, 224);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+.direccio{
+    padding-right: 100px;
+}
+.informacio{
+    padding-right: 100px;
+}

@@ -1,0 +1,488 @@
+
+*{font-family: 'Josefin Sans', sans-serif;}
+*{letter-spacing: .05rem;}
+*{text-decoration: none;}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.fons_1{
+    width: 60%;
+    margin: auto;
+    line-height: 1.4em;
+    padding-top: 9%;
+    padding-bottom: 5%;
+}
+
+.fons_2{
+    width: 60%;
+    margin: auto;
+    line-height: 1.4em;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.logo{
+    display:flex;
+    padding-top: 2%;
+}
+
+.logo img{
+    margin-left: 2%;
+    height: 90px;
+    width: 90px;
+    display: flex;
+}
+
+.logo h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin:auto;
+    margin-top: 1%;
+    color: white;
+
+}
+.logo ul{
+    list-style-type: none;
+    display: flex;
+    padding-right: 2px;
+    margin-right: 2%;
+}
+.logo li{
+    padding-right: 8px;
+
+}
+.capcalera{
+    background-color: rgb(77, 77, 77);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.sessio{
+    padding-top: 20px;
+    padding-left: 20%;
+    font-size: 20px;
+}
+.registre{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 1%;
+    color: white;
+
+}
+.navegador{
+    background-image: url("../Projecte/Imatges/nav.png");  
+    list-style-type: none;
+    display: flex;
+    padding-left: 16%;
+    padding-top: 45px;
+    color: white;
+    margin-bottom: 0%;
+    
+}
+
+ul.navegador li{
+    margin-right: 30px;
+    font:bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 25px;
+}
+ul.navegador li:hover{
+    text-decoration-line: underline;
+    color: gray;
+    
+}
+ul.navegador a{
+    font:bold;
+    color:white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.fons_1 p{
+    text-align: center;
+    font-size: 250%;
+    padding: 2%;
+}
+
+.ofertes{
+    display: flex;
+}
+
+.oferta_1{
+    box-shadow: 1px 1px 15px #aaaaaa;
+    margin: 2%;
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.oferta_1 h3{
+    text-align: center;
+}
+
+.oferta_1 img{
+    width: 55%;
+    height: 15%;
+    display:block;
+    margin:auto;
+}
+
+.oferta_1 a{
+    margin-left: 18%;
+}
+
+.oferta_1 button{
+    margin-top: 7%;
+    margin-left: 37%;
+    text-decoration: none;
+    padding: 4%;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(167, 51, 167);
+    border: 0;
+    border-radius: 6px;
+}
+
+.oferta_2 button{
+    margin-top: 7%;
+    margin-left: 37%;
+    text-decoration: none;
+    padding: 4%;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(167, 51, 167);
+    border: 0;
+    border-radius: 6px;
+}
+
+.oferta_3 button{
+    margin-top: 7%;
+    margin-left: 37%;
+    text-decoration: none;
+    padding: 4%;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(167, 51, 167);
+    border: 0;
+    border-radius: 6px;
+}
+
+
+.boto_info{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    margin:auto;
+    visibility: hidden;
+}
+.boto_info:hover{
+    background-color: rgb(116, 35, 116);
+}
+
+.boto_1{
+    text-decoration: none;
+    padding: 5%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #9DD658;
+    border-radius: 6px;
+    justify-content: center;
+}
+.boto_1:hover{
+    color: #ffffff;
+    background-color:  #71AD29;
+}
+
+.info_oferta_1{
+    padding: 5%;
+    padding-bottom: 10%;
+    font-size: 120%;
+    line-height: 2em;
+}
+
+.oferta_2{
+    box-shadow: 1px 1px 15px #aaaaaa;
+    margin: 2%;
+}
+
+.oferta_2 h3{
+    text-align: center;
+}
+
+.oferta_2 img{
+    width: 50%;
+    height: 15%;
+    display:block;
+    margin:auto;
+}
+
+.oferta_2 a{
+    margin-left: 15%;
+}
+
+.boto_2{
+    text-decoration: none;
+    padding: 5%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(231, 182, 91);
+    border-radius: 6px;
+}
+.boto_2:hover{
+    color: #ffffff;
+    background-color:  rgb(228, 146, 23);
+}
+
+.info_oferta_2{
+    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: large;
+    line-height: 2em;
+}
+
+.oferta_3{
+    box-shadow: 1px 1px 15px #aaaaaa;
+    margin: 2%;
+}
+
+.oferta_3 h3{
+    text-align: center;
+}
+
+.oferta_3 img{
+    width: 50%;
+    height: 15%;
+    display:block;
+    margin:auto;
+}
+
+.oferta_3 a{
+    margin-left: 20%;
+}
+
+.boto_3{
+    text-decoration: none;
+    padding: 5%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(88, 90, 214);
+    border-radius: 6px;
+}
+.boto_3:hover{
+    color: #ffffff;
+    background-color:  rgb(56, 58, 161);
+}
+
+.info_oferta_3{
+    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: large;
+    line-height: 2em;
+}
+
+.taula_ofertes h2{
+    text-align: center;
+    padding: 3%;
+}
+
+.taula td{
+    text-align: center;
+    padding: 2%;
+}
+
+.taula .fila_principal{ 
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 6%;
+}
+
+.taula .fila_principal td img{
+    width: 30%;
+    height: 30%;
+    padding-bottom: 2%;
+}
+
+.taula .fila_secundaria{
+    font-size: 150%;
+    margin: 2%;
+}
+
+.taula .fila_secundaria th{
+    padding: 2%;
+}
+
+.glyphicon-remove{
+    color: rgb(228, 60, 60);
+}
+
+.glyphicon-ok{
+    color: rgb(55, 151, 55);
+}
+
+.boto_1_2{
+    text-decoration: none;
+    padding: 5%;
+    font-weight: 600;
+    font-size: 60%;
+    color: #ffffff;
+    background-color: #9DD658;
+    border-radius: 6px;
+}
+.boto_1_2:hover{
+    color: #ffffff;
+    background-color:  #71AD29;
+}
+
+.boto_2_2{
+    text-decoration: none;
+    padding: 5%;
+    font-weight: 600;
+    font-size: 60%;
+    color: #ffffff;
+    background-color: rgb(231, 182, 91);
+    border-radius: 6px;
+}
+.boto_2_2:hover{
+    color: #ffffff;
+    background-color:  rgb(228, 146, 23);
+}
+
+.boto_3_2{
+    text-decoration: none;
+    padding: 5%;
+    font-weight: 600;
+    font-size: 60%;
+    color: #ffffff;
+    background-color: #9DD658;
+    border-radius: 6px;
+}
+.boto_3_2:hover{
+    color: #ffffff;
+    background-color:  #71AD29;
+}
+
+.publicitat{
+    background-color: rgb(167, 51, 167);
+    padding: 7%;
+}
+
+.publicitat p{
+    font-size: 300%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.boto_Publi{
+    text-decoration: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 600;
+    font-size: 150%;
+    color: rgb(167, 51, 167);
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-left: 40%;
+}
+.boto_Publi:hover{
+    color: rgb(255, 255, 255);
+    background-color:  #71AD29;
+    box-shadow:10px 10px 40px 5px rgb(11, 12, 6)
+}
+
+.empreses{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.empreses > div{
+    text-align: center;
+    font-size: 30px;
+}
+.hp{
+    height: 80px;
+    width: 80px;
+}
+.ferraridiv{
+    margin-bottom: 2%;
+}
+.ferrari{
+    height: 110px;
+    width: 200px;
+}
+.sun{
+    padding-top: 4%;
+    height: 60px;
+    width: 50px;
+}
+.applediv{
+    margin-bottom: 20px;
+}
+.apple{
+    height: 70px;
+    width: 60px;
+}
+.netapp{
+    padding-top: 4%;
+    height: 60px;
+    width: 190px;
+}
+.ibm{
+    height: 60px;
+    width: 150px;
+}
+.luis_vuitton{
+    height: 80px;
+    width: 150px;
+}
+
+.balenciaga{
+    height: 80px;
+    width: 280px;
+}
+
+footer{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    height: auto;
+    background-color:rgb(77, 77, 77);
+    display: flex;
+}
+.contacte{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    text-align: left;
+}
+.contacte ul{
+    list-style-type: none;
+    color: rgb(224, 224, 224);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+.primer{
+    list-style-type: none;
+    color: rgb(224, 224, 224);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+.direccio{
+    padding-right: 100px;
+}
+.informacio{
+    padding-right: 100px;
+}
